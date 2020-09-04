@@ -19,6 +19,7 @@ def friend_counter(a_dict):
   friends = 0
   for friend in a_dict["friends"]:
     friends += 1
+    a_dict["friends"].append(friends)
   return friends
 
 
